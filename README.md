@@ -4,6 +4,7 @@ List Pods
 kubectl get pods
 
 List Deployments
+
 kubectl get deployments
 
 List Services
@@ -18,5 +19,3 @@ kubectl expose deployment spring-boot-example --type=LoadBalancer
 Scale deployments
 kubectl scale deployment spring-boot-example --replicas=3
 
-K8s YAML Creator
-Link to Brandon Potter's YML builder - https://static.brandonpotter.com/kubernetes/DeploymentBuilder.html
