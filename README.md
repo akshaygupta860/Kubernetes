@@ -19,3 +19,5 @@ kubectl expose deployment spring-boot-example --type=LoadBalancer
 Scale deployments:
 kubectl scale deployment spring-boot-example --replicas=3
 
+Command to retrieve logs:
+kubectl logs <POD_NAME>
